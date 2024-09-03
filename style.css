@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+html{
+    scroll-behavior: smooth;
+}
+/* HOME */
+/* NAVBAR IN HOME */
+#home{
+    width: 100%;
+    height:120vh;/*vh is used to cover the whole scren area*/
+    background-color: rgb(185,138,83);
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color:transparent;
+    height: 100px;
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    padding: 20px;
+    padding-top: 30px;
+}
+.navbar ul li a{
+    margin: 20px;
+    text-decoration: none;
+    color:white;
+    font-size: 23px;
+    
+}
+.navbar h1{
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    padding: 20px;
+    padding-left: 50px;
+}
+.front{
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.front h1{
+    font-size: 20vw;
+    color: rgb(240,248,255,0.619);
+}
+#coffeecan{
+    position: absolute;
+    width: 16%;
+    filter: drop-shadow(2px 2px 10px black);
+    z-index: 1;
+    /* z-index:1 is used to make can appear over those 2 beans */
+}
+#coffeebean1{
+    position: absolute;
+    width: 16%;
+    filter: drop-shadow(2px 2px 10px black);
+    top: 6%;
+    left: 30%;
+    transform: rotate(20deg);
+    /* z-index: 2; to make bean1 appear over coffee can */
+    
+}
+#coffeebean2{
+    position: absolute;
+    width: 16%;
+    filter: drop-shadow(2px 2px 10px black);
+    top: 67%;
+    left: 53%;
+    transform: rotate(20deg);
+
+}
+#coffeebean3{
+    position: absolute;
+    width: 16%;
+    filter: drop-shadow(2px 2px 10px black);
+    top: 37%;
+    left: 25%;
+    transform: rotate(131deg);
+}
+#coffeebean4{
+    position: absolute;
+    width: 16%;
+    filter: drop-shadow(2px 2px 10px black);
+    top: 29%;
+    left: 73%;
+    transform: rotate(113deg);
+}
+#coffeebean5{
+    position: absolute;
+    width: 16%;
+    filter: drop-shadow(2px 2px 10px black);
+    top: 10%;
+    left: 60%;
+    transform: rotate(-31deg);
+}
+#coffeebean6{
+    position: absolute;
+    width: 16%;
+    filter: drop-shadow(2px 2px 10px black);
+    top: 7%;
+    left: 6%;
+    transform: rotate(-31deg);
+
+}
+/* ABOUT */
+#about{
+    width: 100%;
+    height:120vh;/*vh is used to cover the whole scren area*/
+    background-color:rgb(139, 101, 57); 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.card{
+    width:20%;
+    height:52%;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 20%;
+    background-color: rgb(240,248,255,0.644);
+    
+}
+.para{
+    width: 60%;
+    height: 50%;
+    font-size: 2vw;
+    color: rgba(39, 4, 4, 0.673);
+}
