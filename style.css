@@ -55,6 +55,7 @@ html{
     color: rgb(240,248,255,0.619);
 }
 #coffeecan{
+    
     position: absolute;
     width: 16%;
     filter: drop-shadow(2px 2px 10px black);
@@ -198,4 +199,77 @@ html{
     rotate:141deg;
     
 
+}
+/* contact */
+#contact{
+    width: 100%;
+    height:100vh;/*vh is used to cover the whole scren area*/
+    background-color:rgb(139, 101, 57); 
+    display: flex;
+    
+    align-items: center;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid wheat;
+    padding: 20px;
+    margin-left: 80px;
+    position: relative;
+    background-color: rgb(202, 212, 221);
+    border-radius: 20px;
+    box-shadow: 8px 8px 10px black;
+
+}
+form h1{
+    position: absolute;
+    top:-40px;
+    font-size: 60px;
+    color:aliceblue;
+    -webkit-text-stroke: 2px  rgba(121, 67, 5, 0.668);
+    /* to put black background over each letter of contacts heading */
+}
+#name{
+    width:300px;
+    height:40px;
+    padding: 5px;
+    border-radius: 10px;
+    border:3px solid rgb(195, 156, 113);
+    color:rgb(185,138,83);
+
+}
+#mail{
+    width:300px;
+    height:40px;
+    padding: 5px;
+    border-radius: 10px;
+    border:3px solid rgb(195, 156, 113);
+    color:rgb(185,138,83);
+
+}
+#address{
+    padding: 5px;
+    border-radius: 10px;
+    border:3px solid rgb(195, 156, 113);
+    color:rgb(185,138,83);
+
+}
+button{
+    padding: 5px;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    margin-left: 100px;
+    font-size: medium;
+    font-weight: bolder;
+    border:3px solid rgb(195, 156, 113);
+    color:rgb(185,138,83);
+
+}
+button:hover{
+    color: aliceblue;
+    background-color: rgb(185,138,83);
+    cursor: pointer;
+    scale: 1.2;
 }
