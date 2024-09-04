@@ -131,10 +131,71 @@ html{
     border-radius: 20%;
     background-color: rgb(240,248,255,0.644);
     
+    
 }
 .para{
     width: 60%;
     height: 50%;
     font-size: 2vw;
     color: rgba(39, 4, 4, 0.673);
+}
+/* menu */
+#menu{
+    width: 100%;
+    height:100vh;/*vh is used to cover the whole scren area*/
+    background-color:rgb(139, 101, 57); 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.card1,.card2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fanta{
+    
+    margin-left: 45px;
+    position: absolute;
+    width: 14%;
+    height: 400px;
+    filter: drop-shadow(2px 2px 10px black);
+    z-index: 1;
+    top:1825px
+    /* margin-top: 20px;
+    padding-right: 90px;
+    width: 400px;
+    height: 400px;
+    filter: drop-shadow(2px 2px 10px black); */
+    
+} 
+ #sprite{  
+    margin-top: 20px;
+    margin-left: 30px;
+    position: absolute;
+    width: 15%;
+    height: 420px;
+    filter: drop-shadow(2px 2px 10px black);
+    z-index: 1;
+    top: 1800px;
+
+}  
+#bean1{
+    width: 10%;
+    position: absolute;
+    top:2130px;
+    left:100px;
+    rotate:20deg;
+
+}
+#bean2{
+
+    width: 10%;
+    position: absolute;
+    top:2110px;
+    left:1260px;
+    rotate:141deg;
+    
+
 }
